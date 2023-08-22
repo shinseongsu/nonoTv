@@ -1,0 +1,16 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB
+
+video:
+  outputPath: /Users/mac/Desktop/coding/nonoTV/resource
+
+ffmpeg:
+  path: /Users/mac/Desktop/coding/nonoTV/codec-service/src/main/resources/ffmpeg/ffmpeg
+
+ffprobe:
+  path: /Users/mac/Desktop/coding/nonoTV/codec-service/src/main/resources/ffmpeg/ffprobe
+
+
